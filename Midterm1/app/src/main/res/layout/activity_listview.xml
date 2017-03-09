@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.user.midterm1.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Single ListItem -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:layout_alignParentTop="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+        />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/checkbox"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:paddingLeft="40dp"
+        android:layout_below="@+id/title"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/priority"
+        android:paddingLeft="40dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/description"
+        android:focusable="false"
+        android:text="TEXT"
+        android:focusableInTouchMode="false"/>
+
+</RelativeLayout>
+<!--<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:id="@+id/data_point"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:drawableRight="?android:attr/listChoiceIndicatorMultiple"-->
+        <!--android:focusable="false"-->
+        <!--android:focusableInTouchMode="false"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:paddingLeft="20dp"-->
+        <!--android:choiceMode="multipleChoice"-->
+        <!--android:state_activated="true"-->
+        <!--android:state_enabled="true"-->
+        <!--android:textSize="20dp"/>-->
+
+
+</com.example.user.midterm1.CheckableLinearLayout>
